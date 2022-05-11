@@ -186,25 +186,6 @@ namespace VISION
                 num_LightCH4.Value = Convert.ToDecimal(CamSet.ReadData($"LightControl", "CH4"));
                 tb_CalibrationValue.Text = Glob.CAM_CalValue[Glob.CamNumber].ToString("F6");/*(CalibrationValue.ReadData("Calibration Value", $"CAM{Glob.CamNumber}"));*/
                 tb_CalibrationValue2.Text = Glob.CAM_CalValue2[Glob.CamNumber].ToString("F6");
-                tb_208_Min.Text = CalibrationValue.ReadData("Spec Value", "208Point_Min");
-                tb_208_Stand.Text = CalibrationValue.ReadData("Spec Value", "208Point_Stand");
-                tb_208_Max.Text = CalibrationValue.ReadData("Spec Value", "208Point_Max");
-                tb_500_Min.Text = CalibrationValue.ReadData("Spec Value", "500Point_Min");
-                tb_500_Stand.Text = CalibrationValue.ReadData("Spec Value", "500Point_Stand");
-                tb_500_Max.Text = CalibrationValue.ReadData("Spec Value", "500Point_Max");
-                tb_501_Min.Text = CalibrationValue.ReadData("Spec Value", "501Point_Min");
-                tb_501_Stand.Text = CalibrationValue.ReadData("Spec Value", "501Point_Stand");
-                tb_501_Max.Text = CalibrationValue.ReadData("Spec Value", "501Point_Max");
-                tb_502_Min.Text = CalibrationValue.ReadData("Spec Value", "502Point_Min");
-                tb_502_Stand.Text = CalibrationValue.ReadData("Spec Value", "502Point_Stand");
-                tb_502_Max.Text = CalibrationValue.ReadData("Spec Value", "502Point_Max");
-                tb_409_Min.Text = CalibrationValue.ReadData("Spec Value", "409Point_Min");
-                tb_409_Stand.Text = CalibrationValue.ReadData("Spec Value", "409Point_Stand");
-                tb_409_Max.Text = CalibrationValue.ReadData("Spec Value", "409Point_Max");
-                tb_405_Min.Text = CalibrationValue.ReadData("Spec Value", "405Point_Min");
-                tb_405_Stand.Text = CalibrationValue.ReadData("Spec Value", "405Point_Stand");
-                tb_405_Max.Text = CalibrationValue.ReadData("Spec Value", "405Point_Max");
-
                 for (int i = 0; i < Main.AllCams.Count; i++)
                 {
                     Glob.CameraOption[i].Exposure = Convert.ToDouble(CamSet.ReadData($"Camera{i}", "Exposure"));
@@ -1193,28 +1174,6 @@ namespace VISION
         {
             TempCalipers[Glob.CamNumber, (int)num_LineToolNum.Value].InputImage((CogImage8Grey)cdyDisplay.Image);
             TempCalipers[Glob.CamNumber, (int)num_LineToolNum.Value].ToolSetup();
-        }
-
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-            Glob.Point208_Min = Convert.ToDouble(tb_208_Min.Text);
-            Glob.Point208_Stand = Convert.ToDouble(tb_208_Stand.Text);
-            Glob.Point208_Max = Convert.ToDouble(tb_208_Max.Text);
-            Glob.Point500_Min = Convert.ToDouble(tb_500_Min.Text);
-            Glob.Point500_Stand = Convert.ToDouble(tb_500_Stand.Text);
-            Glob.Point500_Max = Convert.ToDouble(tb_500_Max.Text);
-            Glob.Point501_Min = Convert.ToDouble(tb_501_Min.Text);
-            Glob.Point501_Stand = Convert.ToDouble(tb_501_Stand.Text);
-            Glob.Point501_Max = Convert.ToDouble(tb_501_Max.Text);
-            Glob.Point502_Min = Convert.ToDouble(tb_502_Min.Text);
-            Glob.Point502_Stand = Convert.ToDouble(tb_502_Stand.Text);
-            Glob.Point502_Max = Convert.ToDouble(tb_502_Max.Text);
-            Glob.Point409_Min = Convert.ToDouble(tb_409_Min.Text);
-            Glob.Point409_Stand = Convert.ToDouble(tb_409_Stand.Text);
-            Glob.Point409_Max = Convert.ToDouble(tb_409_Max.Text);
-            Glob.Point405_Min = Convert.ToDouble(tb_405_Min.Text);
-            Glob.Point405_Stand = Convert.ToDouble(tb_405_Stand.Text);
-            Glob.Point405_Max = Convert.ToDouble(tb_405_Max.Text);
         }
 
         private void cb_LineMultiPatternName_SelectedIndexChanged(object sender, EventArgs e)

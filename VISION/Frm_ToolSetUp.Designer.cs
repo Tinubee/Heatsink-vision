@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_ToolSetUp));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.btn_Exit = new System.Windows.Forms.Button();
             this.btn_Save = new System.Windows.Forms.Button();
@@ -207,35 +207,6 @@
             this.btn_CaliperInspect = new System.Windows.Forms.Button();
             this.btn_CaliperFindArea = new System.Windows.Forms.Button();
             this.cb_CaliperPolarty = new System.Windows.Forms.ComboBox();
-            this.tableLayoutPanel46 = new System.Windows.Forms.TableLayoutPanel();
-            this.tb_405_Max = new System.Windows.Forms.TextBox();
-            this.tb_405_Stand = new System.Windows.Forms.TextBox();
-            this.tb_405_Min = new System.Windows.Forms.TextBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.tb_502_Max = new System.Windows.Forms.TextBox();
-            this.tb_502_Stand = new System.Windows.Forms.TextBox();
-            this.tb_502_Min = new System.Windows.Forms.TextBox();
-            this.label45 = new System.Windows.Forms.Label();
-            this.tb_501_Max = new System.Windows.Forms.TextBox();
-            this.tb_501_Stand = new System.Windows.Forms.TextBox();
-            this.tb_501_Min = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.tb_500_Max = new System.Windows.Forms.TextBox();
-            this.tb_500_Stand = new System.Windows.Forms.TextBox();
-            this.tb_500_Min = new System.Windows.Forms.TextBox();
-            this.tb_208_Max = new System.Windows.Forms.TextBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.tb_208_Min = new System.Windows.Forms.TextBox();
-            this.tb_208_Stand = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.tb_409_Max = new System.Windows.Forms.TextBox();
-            this.tb_409_Stand = new System.Windows.Forms.TextBox();
-            this.tb_409_Min = new System.Windows.Forms.TextBox();
             this.btn_MasterImageLoad = new System.Windows.Forms.Button();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cdyDisplay)).BeginInit();
@@ -302,7 +273,6 @@
             this.tableLayoutPanel24.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num_CaliperToolNumber)).BeginInit();
             this.tableLayoutPanel44.SuspendLayout();
-            this.tableLayoutPanel46.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel2
@@ -625,40 +595,40 @@
             // 
             this.dgv_ToolSetUp.AllowUserToAddRows = false;
             this.dgv_ToolSetUp.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_ToolSetUp.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_ToolSetUp.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_ToolSetUp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_ToolSetUp.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colname,
             this.coldata,
             this.Column1,
             this.Column2});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_ToolSetUp.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_ToolSetUp.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_ToolSetUp.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
-            this.dgv_ToolSetUp.Location = new System.Drawing.Point(1127, 552);
+            this.dgv_ToolSetUp.Location = new System.Drawing.Point(1127, 325);
             this.dgv_ToolSetUp.Margin = new System.Windows.Forms.Padding(0);
             this.dgv_ToolSetUp.MultiSelect = false;
             this.dgv_ToolSetUp.Name = "dgv_ToolSetUp";
             this.dgv_ToolSetUp.ReadOnly = true;
             this.dgv_ToolSetUp.RowHeadersWidth = 10;
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            this.dgv_ToolSetUp.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.dgv_ToolSetUp.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_ToolSetUp.RowTemplate.Height = 23;
             this.dgv_ToolSetUp.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dgv_ToolSetUp.Size = new System.Drawing.Size(302, 524);
+            this.dgv_ToolSetUp.Size = new System.Drawing.Size(302, 751);
             this.dgv_ToolSetUp.TabIndex = 21;
             // 
             // colname
@@ -2880,369 +2850,6 @@
             this.cb_CaliperPolarty.TabIndex = 14;
             this.cb_CaliperPolarty.SelectedIndexChanged += new System.EventHandler(this.cb_CaliperPolarty_SelectedIndexChanged);
             // 
-            // tableLayoutPanel46
-            // 
-            this.tableLayoutPanel46.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel46.ColumnCount = 4;
-            this.tableLayoutPanel46.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel46.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel46.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel46.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel46.Controls.Add(this.tb_405_Max, 3, 6);
-            this.tableLayoutPanel46.Controls.Add(this.tb_405_Stand, 2, 6);
-            this.tableLayoutPanel46.Controls.Add(this.tb_405_Min, 1, 6);
-            this.tableLayoutPanel46.Controls.Add(this.label49, 0, 6);
-            this.tableLayoutPanel46.Controls.Add(this.tb_502_Max, 3, 4);
-            this.tableLayoutPanel46.Controls.Add(this.tb_502_Stand, 2, 4);
-            this.tableLayoutPanel46.Controls.Add(this.tb_502_Min, 1, 4);
-            this.tableLayoutPanel46.Controls.Add(this.label45, 0, 5);
-            this.tableLayoutPanel46.Controls.Add(this.tb_501_Max, 3, 3);
-            this.tableLayoutPanel46.Controls.Add(this.tb_501_Stand, 2, 3);
-            this.tableLayoutPanel46.Controls.Add(this.tb_501_Min, 1, 3);
-            this.tableLayoutPanel46.Controls.Add(this.label34, 0, 4);
-            this.tableLayoutPanel46.Controls.Add(this.label25, 0, 3);
-            this.tableLayoutPanel46.Controls.Add(this.tb_500_Max, 3, 2);
-            this.tableLayoutPanel46.Controls.Add(this.tb_500_Stand, 2, 2);
-            this.tableLayoutPanel46.Controls.Add(this.tb_500_Min, 1, 2);
-            this.tableLayoutPanel46.Controls.Add(this.tb_208_Max, 3, 1);
-            this.tableLayoutPanel46.Controls.Add(this.label39, 0, 1);
-            this.tableLayoutPanel46.Controls.Add(this.label40, 1, 0);
-            this.tableLayoutPanel46.Controls.Add(this.label42, 0, 2);
-            this.tableLayoutPanel46.Controls.Add(this.label43, 2, 0);
-            this.tableLayoutPanel46.Controls.Add(this.label44, 3, 0);
-            this.tableLayoutPanel46.Controls.Add(this.tb_208_Min, 1, 1);
-            this.tableLayoutPanel46.Controls.Add(this.tb_208_Stand, 2, 1);
-            this.tableLayoutPanel46.Controls.Add(this.button2, 0, 0);
-            this.tableLayoutPanel46.Controls.Add(this.tb_409_Max, 3, 5);
-            this.tableLayoutPanel46.Controls.Add(this.tb_409_Stand, 2, 5);
-            this.tableLayoutPanel46.Controls.Add(this.tb_409_Min, 1, 5);
-            this.tableLayoutPanel46.Location = new System.Drawing.Point(1127, 324);
-            this.tableLayoutPanel46.Name = "tableLayoutPanel46";
-            this.tableLayoutPanel46.RowCount = 7;
-            this.tableLayoutPanel46.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28587F));
-            this.tableLayoutPanel46.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28588F));
-            this.tableLayoutPanel46.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28588F));
-            this.tableLayoutPanel46.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28445F));
-            this.tableLayoutPanel46.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28445F));
-            this.tableLayoutPanel46.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
-            this.tableLayoutPanel46.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28816F));
-            this.tableLayoutPanel46.Size = new System.Drawing.Size(302, 225);
-            this.tableLayoutPanel46.TabIndex = 23;
-            // 
-            // tb_405_Max
-            // 
-            this.tb_405_Max.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_405_Max.Location = new System.Drawing.Point(229, 193);
-            this.tb_405_Max.Name = "tb_405_Max";
-            this.tb_405_Max.Size = new System.Drawing.Size(68, 27);
-            this.tb_405_Max.TabIndex = 34;
-            this.tb_405_Max.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_405_Max.Visible = false;
-            // 
-            // tb_405_Stand
-            // 
-            this.tb_405_Stand.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_405_Stand.Location = new System.Drawing.Point(154, 193);
-            this.tb_405_Stand.Name = "tb_405_Stand";
-            this.tb_405_Stand.Size = new System.Drawing.Size(68, 27);
-            this.tb_405_Stand.TabIndex = 34;
-            this.tb_405_Stand.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_405_Stand.Visible = false;
-            // 
-            // tb_405_Min
-            // 
-            this.tb_405_Min.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_405_Min.Location = new System.Drawing.Point(79, 193);
-            this.tb_405_Min.Name = "tb_405_Min";
-            this.tb_405_Min.Size = new System.Drawing.Size(68, 27);
-            this.tb_405_Min.TabIndex = 34;
-            this.tb_405_Min.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_405_Min.Visible = false;
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label49.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label49.Location = new System.Drawing.Point(4, 190);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(68, 34);
-            this.label49.TabIndex = 35;
-            this.label49.Text = "405부";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label49.Visible = false;
-            // 
-            // tb_502_Max
-            // 
-            this.tb_502_Max.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_502_Max.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_502_Max.Location = new System.Drawing.Point(229, 131);
-            this.tb_502_Max.Name = "tb_502_Max";
-            this.tb_502_Max.Size = new System.Drawing.Size(69, 27);
-            this.tb_502_Max.TabIndex = 30;
-            this.tb_502_Max.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_502_Max.Visible = false;
-            // 
-            // tb_502_Stand
-            // 
-            this.tb_502_Stand.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_502_Stand.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_502_Stand.Location = new System.Drawing.Point(154, 131);
-            this.tb_502_Stand.Name = "tb_502_Stand";
-            this.tb_502_Stand.Size = new System.Drawing.Size(68, 27);
-            this.tb_502_Stand.TabIndex = 29;
-            this.tb_502_Stand.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_502_Stand.Visible = false;
-            // 
-            // tb_502_Min
-            // 
-            this.tb_502_Min.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_502_Min.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_502_Min.Location = new System.Drawing.Point(79, 131);
-            this.tb_502_Min.Name = "tb_502_Min";
-            this.tb_502_Min.Size = new System.Drawing.Size(68, 27);
-            this.tb_502_Min.TabIndex = 28;
-            this.tb_502_Min.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_502_Min.Visible = false;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label45.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label45.Location = new System.Drawing.Point(4, 159);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(68, 30);
-            this.label45.TabIndex = 31;
-            this.label45.Text = "409부";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label45.Visible = false;
-            // 
-            // tb_501_Max
-            // 
-            this.tb_501_Max.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_501_Max.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_501_Max.Location = new System.Drawing.Point(229, 100);
-            this.tb_501_Max.Name = "tb_501_Max";
-            this.tb_501_Max.Size = new System.Drawing.Size(69, 27);
-            this.tb_501_Max.TabIndex = 27;
-            this.tb_501_Max.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_501_Max.Visible = false;
-            // 
-            // tb_501_Stand
-            // 
-            this.tb_501_Stand.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_501_Stand.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_501_Stand.Location = new System.Drawing.Point(154, 100);
-            this.tb_501_Stand.Name = "tb_501_Stand";
-            this.tb_501_Stand.Size = new System.Drawing.Size(68, 27);
-            this.tb_501_Stand.TabIndex = 26;
-            this.tb_501_Stand.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_501_Stand.Visible = false;
-            // 
-            // tb_501_Min
-            // 
-            this.tb_501_Min.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_501_Min.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_501_Min.Location = new System.Drawing.Point(79, 100);
-            this.tb_501_Min.Name = "tb_501_Min";
-            this.tb_501_Min.Size = new System.Drawing.Size(68, 27);
-            this.tb_501_Min.TabIndex = 25;
-            this.tb_501_Min.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_501_Min.Visible = false;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label34.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label34.Location = new System.Drawing.Point(4, 128);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(68, 30);
-            this.label34.TabIndex = 24;
-            this.label34.Text = "502부";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label34.Visible = false;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label25.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label25.Location = new System.Drawing.Point(4, 97);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(68, 30);
-            this.label25.TabIndex = 24;
-            this.label25.Text = "501부";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label25.Visible = false;
-            // 
-            // tb_500_Max
-            // 
-            this.tb_500_Max.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_500_Max.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_500_Max.Location = new System.Drawing.Point(229, 68);
-            this.tb_500_Max.Name = "tb_500_Max";
-            this.tb_500_Max.Size = new System.Drawing.Size(69, 27);
-            this.tb_500_Max.TabIndex = 11;
-            this.tb_500_Max.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_500_Max.Visible = false;
-            // 
-            // tb_500_Stand
-            // 
-            this.tb_500_Stand.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_500_Stand.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_500_Stand.Location = new System.Drawing.Point(154, 68);
-            this.tb_500_Stand.Name = "tb_500_Stand";
-            this.tb_500_Stand.Size = new System.Drawing.Size(68, 27);
-            this.tb_500_Stand.TabIndex = 10;
-            this.tb_500_Stand.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_500_Stand.Visible = false;
-            // 
-            // tb_500_Min
-            // 
-            this.tb_500_Min.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_500_Min.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_500_Min.Location = new System.Drawing.Point(79, 68);
-            this.tb_500_Min.Name = "tb_500_Min";
-            this.tb_500_Min.Size = new System.Drawing.Size(68, 27);
-            this.tb_500_Min.TabIndex = 9;
-            this.tb_500_Min.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_500_Min.Visible = false;
-            // 
-            // tb_208_Max
-            // 
-            this.tb_208_Max.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_208_Max.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_208_Max.Location = new System.Drawing.Point(229, 36);
-            this.tb_208_Max.Name = "tb_208_Max";
-            this.tb_208_Max.Size = new System.Drawing.Size(69, 27);
-            this.tb_208_Max.TabIndex = 8;
-            this.tb_208_Max.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label39.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label39.Location = new System.Drawing.Point(4, 33);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(68, 31);
-            this.label39.TabIndex = 0;
-            this.label39.Text = "208부";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label40.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label40.Location = new System.Drawing.Point(79, 1);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(68, 31);
-            this.label40.TabIndex = 1;
-            this.label40.Text = "최소값";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label42.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label42.Location = new System.Drawing.Point(4, 65);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(68, 31);
-            this.label42.TabIndex = 2;
-            this.label42.Text = "500부";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label42.Visible = false;
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label43.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label43.Location = new System.Drawing.Point(154, 1);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(68, 31);
-            this.label43.TabIndex = 3;
-            this.label43.Text = "기준값";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label44.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label44.Location = new System.Drawing.Point(229, 1);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(69, 31);
-            this.label44.TabIndex = 4;
-            this.label44.Text = "최대값";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tb_208_Min
-            // 
-            this.tb_208_Min.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_208_Min.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_208_Min.Location = new System.Drawing.Point(79, 36);
-            this.tb_208_Min.Name = "tb_208_Min";
-            this.tb_208_Min.Size = new System.Drawing.Size(68, 27);
-            this.tb_208_Min.TabIndex = 5;
-            this.tb_208_Min.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // tb_208_Stand
-            // 
-            this.tb_208_Stand.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tb_208_Stand.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_208_Stand.Location = new System.Drawing.Point(154, 36);
-            this.tb_208_Stand.Name = "tb_208_Stand";
-            this.tb_208_Stand.Size = new System.Drawing.Size(68, 27);
-            this.tb_208_Stand.TabIndex = 6;
-            this.tb_208_Stand.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.Location = new System.Drawing.Point(4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(68, 25);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "적용";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
-            // 
-            // tb_409_Max
-            // 
-            this.tb_409_Max.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_409_Max.Location = new System.Drawing.Point(229, 162);
-            this.tb_409_Max.Name = "tb_409_Max";
-            this.tb_409_Max.Size = new System.Drawing.Size(68, 27);
-            this.tb_409_Max.TabIndex = 34;
-            this.tb_409_Max.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_409_Max.Visible = false;
-            // 
-            // tb_409_Stand
-            // 
-            this.tb_409_Stand.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_409_Stand.Location = new System.Drawing.Point(154, 162);
-            this.tb_409_Stand.Name = "tb_409_Stand";
-            this.tb_409_Stand.Size = new System.Drawing.Size(68, 27);
-            this.tb_409_Stand.TabIndex = 32;
-            this.tb_409_Stand.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_409_Stand.Visible = false;
-            // 
-            // tb_409_Min
-            // 
-            this.tb_409_Min.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tb_409_Min.Location = new System.Drawing.Point(79, 162);
-            this.tb_409_Min.Name = "tb_409_Min";
-            this.tb_409_Min.Size = new System.Drawing.Size(68, 27);
-            this.tb_409_Min.TabIndex = 33;
-            this.tb_409_Min.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tb_409_Min.Visible = false;
-            // 
             // btn_MasterImageLoad
             // 
             this.btn_MasterImageLoad.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3261,7 +2868,6 @@
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.Controls.Add(this.btn_MasterImageLoad);
-            this.Controls.Add(this.tableLayoutPanel46);
             this.Controls.Add(this.tableLayoutPanel29);
             this.Controls.Add(this.tableLayoutPanel23);
             this.Controls.Add(this.btn_AllClear);
@@ -3378,8 +2984,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.num_CaliperToolNumber)).EndInit();
             this.tableLayoutPanel44.ResumeLayout(false);
             this.tableLayoutPanel44.PerformLayout();
-            this.tableLayoutPanel46.ResumeLayout(false);
-            this.tableLayoutPanel46.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -3546,37 +3150,12 @@
         private System.Windows.Forms.Button btn_CaliperInspect;
         private System.Windows.Forms.Button btn_CaliperFindArea;
         private System.Windows.Forms.ComboBox cb_CaliperPolarty;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel46;
-        private System.Windows.Forms.TextBox tb_502_Max;
-        private System.Windows.Forms.TextBox tb_502_Stand;
-        private System.Windows.Forms.TextBox tb_502_Min;
-        private System.Windows.Forms.TextBox tb_501_Max;
-        private System.Windows.Forms.TextBox tb_501_Stand;
-        private System.Windows.Forms.TextBox tb_501_Min;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox tb_500_Max;
-        private System.Windows.Forms.TextBox tb_500_Stand;
-        private System.Windows.Forms.TextBox tb_500_Min;
-        private System.Windows.Forms.TextBox tb_208_Max;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.TextBox tb_208_Min;
-        private System.Windows.Forms.TextBox tb_208_Stand;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel45;
         private System.Windows.Forms.Label lb_PointName;
         public System.Windows.Forms.Label lb_Point1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel36;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.ComboBox cb_LineMultiPatternName;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.TextBox tb_409_Max;
-        private System.Windows.Forms.TextBox tb_409_Stand;
-        private System.Windows.Forms.TextBox tb_409_Min;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label48;
@@ -3584,10 +3163,6 @@
         public System.Windows.Forms.TextBox tb_CalibrationValue2;
         public System.Windows.Forms.TextBox tb_PixelValue2;
         public System.Windows.Forms.TextBox tb_MeasureValue2;
-        private System.Windows.Forms.TextBox tb_405_Max;
-        private System.Windows.Forms.TextBox tb_405_Stand;
-        private System.Windows.Forms.TextBox tb_405_Min;
-        private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Button btn_MasterImageLoad;
     }
 }
