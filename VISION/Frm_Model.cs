@@ -47,11 +47,11 @@ namespace VISION
             {
                 return;
             }
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < Main.AllCams.Count(); i++)
             {
                 if (gls.RunnModel.Loadmodel(SelectedModel, gls.MODELROOT, i) == true)
                 {
-                    if (i == 6)
+                    if (i == Main.AllCams.Count()-1)
                     {
                         MessageBox.Show("모델 전환 성공", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
@@ -69,7 +69,7 @@ namespace VISION
             //INIControl CFGFILE = new INIControl(Glob.CONFIGFILE);  // ini파일 경로
             //string LastModel = CFGFILE.ReadData("LASTMODEL", "NAME"); //마지막 사용모델 확인.
             INIControl CamSet = new INIControl($"{Glob.MODELROOT}\\{ModelName}\\CamSet.ini");
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < Main.AllCams.Count(); i++)
             {
                 Main.ExposureSet(i, Convert.ToDouble(CamSet.ReadData($"Camera{i}", "Exposure"))); //노출값 설정
             }
